@@ -1,0 +1,24 @@
+{
+    "name": "mongchelee/chord-train",
+    "description": "Refactoring chord probability algorithm",
+    "authors": [
+        {
+            "name": "mongche",
+            "email": "mongche.lee@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chord\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chord\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev"
+}
